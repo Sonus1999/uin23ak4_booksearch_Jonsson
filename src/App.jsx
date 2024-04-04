@@ -28,7 +28,7 @@ function App() {
       <header>
         <h1>E-BOKZ</h1>
           <nav>
-            <input type="text" value={search} onChange={(change) => setSearch(change.target.value)}/>
+            <input type="text" value={search} onChange={(change) => setSearch(change.target.value)} placeholder='Søk etter en bok...'/>
           </nav>
       </header>
       <main>
